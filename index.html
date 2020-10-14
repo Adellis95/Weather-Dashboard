@@ -11,17 +11,26 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/d3bce829f3.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
+
     <link rel="stylesheet" href="style.css" />
     <title>Weather Dashboard for Cities Across the World</title>
   </head>
   <body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/d3bce829f3.js"
+      crossorigin="anonymous"
+    ></script>
+
     <div class="container-fluid">
       <div class="card">
         <div class="card-body text-center bg-dark text-white">
@@ -57,6 +66,23 @@
                       </button>
                     </div>
                   </div>
+                  <ul class="list-group"></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-4 mr-5">
+            <div class="card currentCard pb-2 pt-1">
+              <h5 class="card-title mt-2 text-center">Current Forecast</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mt-4">
+              <div class="card pb-5 fiveDayCard pl-5">
+                <!-- Appends 5 day forecast-->
+                <h5 class="card-title mt-2 mr-5">5-Day Forecast</h5>
+                <div class="row">
+                  <div class="col fiveDayOne"></div>
                 </div>
               </div>
             </div>
@@ -64,5 +90,13 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d3bce829f3.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
