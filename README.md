@@ -11,7 +11,7 @@
 
 ## Description
 
-Words
+This application is a Weather Dashboard that applies API calling with JQuery to make dynamic changes to the HTML which provides Weather data for a user input city. If a customer is wanting to schedule an event or activitiy, knowing the conditions would be benefitial for our users. This application will save users time and resources for planning an activity up to five days in advance. This application gives the Temperature, Humidity, Wind Speed, and UV Index so you can properly plan all of your extracurricular activities.
 
 ## Acceptance Criteria
 
@@ -35,7 +35,11 @@ THEN I am presented with the last searched city forecast
 
 demo link:
 
+https://drive.google.com/file/d/1J6Q3L7xX5pjjRYP5LlIaLIObZUsncbzp/view
+
 Embed code:
+
+<iframe src="https://drive.google.com/file/d/1J6Q3L7xX5pjjRYP5LlIaLIObZUsncbzp/preview" width="640" height="480"></iframe>
 
 ## Installation
 
@@ -47,7 +51,7 @@ Afterwards, you change directories in your terminal until you are in the Weather
 
 ## Usage
 
-Words
+If a customer is wanting to schedule an event or activitiy, knowing the conditions would be benefitial for our users. This application will save users time and resources for planning an activity up to five days in advance. This application gives the Temperature, Humidity, Wind Speed, and UV Index so you can properly plan all of your extracurricular activities without having to worry about cancelling!
 
 ## License
 

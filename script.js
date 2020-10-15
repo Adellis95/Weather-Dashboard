@@ -5,12 +5,12 @@ var apiKey = "7db286dbdb585f688056d0442798f334";
 // Forloop for persisting the data onto HMTL page
 for (var i = 0; i < localStorage.length; i++) {
   var city = localStorage.getItem(i);
-  // console.log(localStorage.getItem("City"));
+  
   var cityName = $(".list-group").addClass("list-group-item");
 
-  cityName.append("<li>" + city + "</li>");
+  cityName.prepend("<li>" + city + "</li>");
 }
-// Key count for local storage
+
 var keyCount = 0;
 // Search button click event
 searchButton.click(function () {
@@ -39,9 +39,9 @@ searchButton.click(function () {
       method: "GET",
     }).then(function (response) {
       // list-group append an li to it with just set text
-      // console.log(response.name);
+     
       var cityName = $(".list-group").addClass("list-group-item");
-      cityName.append("<li>" + response.name + "</li>");
+      cityName.prepend("<li>" + response.name + "</li>");
       // Local storage
       var local = localStorage.setItem(keyCount, response.name);
       keyCount = keyCount + 1;
@@ -63,7 +63,7 @@ searchButton.click(function () {
       );
       // Add Temp
       var currentTemp = currentName.append("<p>");
-      // .addClass("card-text");
+      
       currentName.append(currentTemp);
       currentTemp.append("<p>" + "Temperature: " + response.main.temp + "</p>");
       // Add Humidity
