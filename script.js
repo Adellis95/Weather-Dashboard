@@ -86,9 +86,10 @@ searchButton.click(function () {
           .addClass("card-text");
         currentUV.addClass("UV");
         currentTemp.append(currentUV);
-        // currentUV.append("UV Index: " + response.value);
+        
       });
     });
+    // Start calling for the 5-Day Forecast
     $.ajax({
         url: urlFiveDay,
         method: "GET",
