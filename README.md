@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-- [Description] (#description)
-- [Acceptance_Criteria] (#acceptance_criteria)
+- [Description](#description)
+- [Acceptance_Criteria](#acceptance_criteria)
 - [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
